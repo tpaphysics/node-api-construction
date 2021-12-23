@@ -9,22 +9,21 @@ mkdir ./$1
 
 cd ./$1
 
+## Configurations Archives
+
 git init
 
 cat <<EOF >.gitignore
 node_modules
 dist
 .env
-EOF 
-
-# Configurações para padronização do código
+EOF
 
 yarn init -y
 
 yarn add typescript @types/node ts-node-dev git-commit-msg-linter -D
 
-
-cat <<EOF > tsconfig.json 
+cat <<EOF >tsconfig.json
 {
   "compilerOptions": {
     "target": "es2019",                                 
@@ -65,7 +64,9 @@ module.exports = {
   },
 };
 
-cat <<EOF > .eslintignore
+EOF
+
+cat <<EOF >.eslintignore
 node_modules
 dist
 EOF
@@ -148,7 +149,7 @@ type RequestSendMessage = {
 
 class SendMessageController {
   async handle(req: RequestSendMessage, res: Response) {
-    const { message } = req.body;
+    const = 'Hello API!';
 
     const service = new SendMessageService();
 
