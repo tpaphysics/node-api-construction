@@ -149,7 +149,7 @@ type RequestSendMessage = {
 
 class SendMessageController {
   async handle(req: RequestSendMessage, res: Response) {
-    const = 'Hello API!';
+    const message = 'Hello API!';
 
     const service = new SendMessageService();
 
