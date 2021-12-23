@@ -7,7 +7,7 @@ Este post contém um script para o desenvolvimento de uma API usando o VS Code e
 - [ ]  Prisma (syntax highlighting)
 - [ ]  Prisma-insider
 
-Para o funcionamento do arquivo você deve estar utilizando o linux. 
+Para o funcionamento do arquivo você deve estar utilizando o linux e ter o yarn instalado. 
 
 Coloque o arquivo dentro de uma pasta, abra o terminal neste diretório e digite:
 
