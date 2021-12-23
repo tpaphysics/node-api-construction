@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z $1 ]; then
-  echo 'Digite: ./api-node-construction.sh nomeDoSeuProjeto
+  echo 'Digite: ./api-node-construction.sh nomeDoSeuProjeto'
   exit 1
 fi
 
